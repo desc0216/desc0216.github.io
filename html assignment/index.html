@@ -1,54 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>First Page</title>
+    <link href="css/main.css" rel="stylesheet">
 </head>
-<header> <h1>Ethan Deschambault</h1>
-<Article> <h2>About Me</h2></Article>
-</header>
-<main>
-    <p>Hi, my name is Ethan and I am currently attending Algonquin college. I'm very excited to take the IMD program because I have been very passionate about video editing. I have been editing for two years and I have been apart of an amazing community along with it. There are many creative people who I have met through the community and they've inspired me to create amazing things.</p>
-</main>
-
-<main>
-    <p>Other than editing, I played basketball competitively for 4 years. I used to play for my school team and the local competitive team. Basketball became a negative experience during COVID so I stopped playing for a long time. Recently, my friends encouraged me to start playing for fun again and I now play basketball every weekend when I can.</p>
-</main>
-<header> <h1>A quote to live by...</h1></header>
-<footer>
-
-    <em><i>You miss 100% of the shots you don't take</i> ~Wayne Gretzky</em></footer>
-
-
-<main> 
-    <article> 
-    <img src="images/Picofme.jpg" alt="picture of me">
-   </article>
-</main>
-
-<main> 
-<article> 
- <h2>Hobbies</h2> 
-    <ol>
-        <li>Anime Editing</li>
-        <li>Video editing/Music Videos</li>
-        <li>Basketball</li>
-        <li>Volleyball</li>
-    </ol>
-</article>
-</main>
-
-<header>
-    <nav>
-        <ul>
-            <li><a href="notes.html">Page 2</a></li>
-        </ul>
-    </nav>
-</header>
-
-<footer>
-    &copy; <em id="date"></em>Ethan Deschambault
-</footer>
+<body>
+    <header> 
+        <h1 class="title">Ethan Deschambault</h1>
+    </header>
+    <main>
+        <article>
+            <h2>About Me</h2>
+            <img src="images/Picofme.jpg" alt="picture of me" id="my-image">
+            <p>Hi, my name is Ethan and I am currently attending Algonquin college. I'm very excited to take the IMD program because I have been very passionate about video editing. I have been editing for two years and I have been apart of an amazing community along with it. There are many creative people who I have met through the community and they've inspired me to create amazing things.</p>
+            <p>Other than editing, I played basketball competitively for <em>4 years</em>. I used to play for my school team and the local competitive team. Basketball became a negative experience during COVID so I stopped playing for a long time. Recently, my friends encouraged me to start playing for fun again and I now play basketball every weekend when I can.</p>
+            <blockquote>"You miss 100% of the shots you don't take"~<cite>Wayne Gretzky</cite></blockquote>
+        </article>
+        <article> 
+            <h2>Hobbies</h2> 
+            <ol>
+                <li class="hobbies">Anime Editing</li>
+                <li class="hobbies">Video editing/Music Videos</li>
+                <li class="hobbies">Basketball</li>
+                <li class="hobbies">Volleyball</li>
+            </ol>
+        </article>
+        <article>
+            <div>
+                 <h3>Pages</h3>
+                 <nav>
+                     <ul>
+                         <li><a href="notes.html">Page 2</a></li>
+                     </ul>
+                 </nav>
+             </div>
+        </article>
+    </main>
+   <footer>&copy; <em id="date"></em>Ethan Deschambault</footer>
+</body>
 </html>
