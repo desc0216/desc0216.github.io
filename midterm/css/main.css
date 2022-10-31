@@ -25,3 +25,10 @@ main {
 .navbar {
     text-align: center;
 }
+
+.wrapper {
+    width: 750px;
+    margin:auto;
+    background-color:rgb(224, 224, 240)
+    
+}
