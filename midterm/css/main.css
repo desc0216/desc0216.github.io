@@ -30,5 +30,14 @@ main {
     width: 750px;
     margin:auto;
     background-color:rgb(224, 224, 240)
-    
+    padding: 20px;
+}
+
+body {
+    background-color:rgb(211, 229, 225)
+}
+
+.space {
+    padding-bottom: 30px;
+    margin:0 auto;
 }
