@@ -1,0 +1,27 @@
+/*The image border on top*/
+.topimage {
+    background-image: url(../images/lone-starfish-wide.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: hiddem;
+    padding: 80px;
+
+}
+
+
+/*marking header bigger and center*/
+header {
+    font-size: 30px;
+    text-align: center;
+    color:aliceblue;
+}
+
+
+main {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.navbar {
+    text-align: center;
+}
