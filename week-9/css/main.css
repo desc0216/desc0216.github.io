@@ -1,0 +1,58 @@
+body{
+    font-size: 16px;
+    background-color:antiquewhite;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background-color:aqua;
+    border: 5px solid black;
+    margin: 0 auto;
+}
+
+.image {
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background: url(https://img.freepik.com/free-vector/adult-elephant-without-ivory-cartoon-style-white-background_1308-53208.jpg?w=2000&t=st=1667306391~exp=1667306991~hmac=d4fe8c43fac7dfb4e7962b11d9836de298758fb168a1dfb63d2ab981e06a4eb3);
+}
+
+@media screen and (min-width:400px) and (max-width:1200px){
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 24px;
+    }
+    .container {
+        width: 250px;
+        height: 250px;
+        background-color: darkcyan;
+        border: 5px solid cornflowerblue;
+        margin: 0 auto;
+        border-radius: 25%
+    }
+
+    .image {
+        background-image: url(https://img.freepik.com/free-vector/adult-elephant-without-ivory-cartoon-style-white-background_1308-53208.jpg?w=2000&t=st=1667306391~exp=1667306991~hmac=d4fe8c43fac7dfb4e7962b11d9836de298758fb168a1dfb63d2ab981e06a4eb3);
+
+        border-radius: 50%;
+    }
+}
+
+@media screen and (min-width:900px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    p{
+        font-size:24px;
+    }
+}
+

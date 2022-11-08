@@ -10,14 +10,14 @@
 }
 
 
-/*marking header bigger and center*/
+/*making header bigger and center*/
 header {
     font-size: 30px;
     text-align: center;
     color:aliceblue;
 }
 
-
+/*making font Arial*/
 main {
     font-family:Arial, Helvetica, sans-serif
 
@@ -68,10 +68,11 @@ nav ul li {
     line-height: 25px;
 }
 
+/*makes border grey*/
 .linkborder {
     border-right: 2px solid grey;
 }
-
+/*makes text black*/
 a {
     text-decoration: none;
     color: black;
