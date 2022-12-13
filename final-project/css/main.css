@@ -143,6 +143,7 @@ nav button {
 .about-us p{
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .about-us h2{
@@ -173,7 +174,7 @@ nav button {
     padding: 15px 15px 0px 15px;
 }
 
-.digital button {
+.services button {
     background-color:#222;
     color: white;
     margin: 15px;
@@ -209,11 +210,6 @@ nav button {
     line-height: 5.5rem;
 } 
 
-
-
-
-
-
 /* Vision */
 .vision {
     color: white;
@@ -224,21 +220,46 @@ nav button {
     width: 100%;
     
 }
-
+.vision {
+    font-family: 'Open Sans', sans-serif;
+}
 .vision button {
+    margin-top: 4rem;
     border: 1px solid #c78c06;
     background-color:rgba(2, 2, 2, 75%);
     color: white;
     
 } 
 
+.vision h3 {
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 5.5rem;
+}
+.vision p{
+    line-height: 1.5rem;
+    padding: 15px 15px 0px 15px;
+}
+
 /* Our Team */
+.team { 
+    font-family: 'Open Sans', sans-serif;
+}
+.team h2 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 5.5rem;
+}
+
 .team h3 {
     padding: 25px 15px 15px 15px;
+    font-size: 2.5rem;
+    font-weight: bolder;
 }
 
 .team img {
     width: 100%;
+    background-color:#ffe6ac;
 }
 
 .paragraph {
@@ -287,19 +308,19 @@ textarea {
 }
 
 /* Hours of Operation */
-table {
+.table-of-hours{
     width: 100%;
 }
 
 th {
-    padding: 20px;
     border: 1px solid black;
     background-color:#ffe6ac;
+    padding: 20px;
 }
 
 td {
-    padding: 20px;
     border: 1px solid black;
+    padding: 20px;
 }
 
 /* Location */
