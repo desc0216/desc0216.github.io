@@ -24,8 +24,18 @@ form input {
     height: 35px;
 }
 
+.fa-search {
+    color:#c78c06;
+    font-size: 1rem;
+}
 
-
+nav button {
+    border: 1px solid #c78c06;
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+    background-color: #222;
+}
 
 
 
