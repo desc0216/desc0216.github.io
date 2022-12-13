@@ -7,6 +7,18 @@ html {
     padding: 15px;
 }
 
+button {
+    border: none;
+    font-size: 1.4rem;
+    padding: 20px 30px 25px 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    line-height: 1.5rem;
+    padding: 10px;
+}
+
 h1 {
     line-height: 6rem;
     font-size: 4.5rem;
@@ -25,18 +37,6 @@ h3 {
     font-size: 2rem;
     padding: 40px 0 20px 0;
     font-weight: bolder;
-}
-
-p {
-    line-height: 1.5rem;
-    padding: 10px;
-}
-
-button {
-    border: none;
-    font-size: 1.4rem;
-    padding: 20px 30px 25px 30px;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .fa {
@@ -83,8 +83,31 @@ nav button {
     background-color: #222;
 }
 
+.fa-search {
+    color:#c78c06;
+    font-size: 1rem;
+}
 
+/* Welcome Section */
+.welcome-background {
+    padding: 60px 0 60px 0;
+    background-size: cover;
+    background-image: url(../images/main-banner.jpg);
+}
 
+.welcome {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 50%);
+}
 
+.welcome button {
+    background-color:#c78c06;
+}
 
+.welcome h1 {
+    color: white;
+}
 
+.welcome p {
+    color: white;
+}
