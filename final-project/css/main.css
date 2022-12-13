@@ -15,8 +15,7 @@ body {
 }
 
 .wrapper img{
-    padding-right: 100%;
-    width: 15%;
+    padding-right: 50%;
     background-color: #c78c06;
 }
 
@@ -269,8 +268,6 @@ nav button {
 
 .team img {
     width: 100%;
-    background-color:#ffe6ac;
-    
 }
 
 .paragraph {
@@ -278,7 +275,7 @@ nav button {
 }
 .john, .bob {
     background-color:#ffe6ac;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .subtitle {
@@ -292,7 +289,7 @@ hr {
 }
 
 /* Contact Form */
-.contact-us form {
+.contact form {
     display: inline-block;
 }
 
@@ -301,7 +298,7 @@ label {
 }
 
 #name, #email, #message {
-    width: 100%;
+    width: 300%;
 }
 
 textarea {
@@ -310,7 +307,7 @@ textarea {
     height: 100px;
 }
 
-.contact-us button {
+.contact button {
     background-color:#222;
 	color:#c78c06;
     border: none;
@@ -350,3 +347,10 @@ footer {
 footer a:visited {
     color:#c78c06;
 }
+
+.footer p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2rem;
+}
+
+/* destop */
