@@ -2,6 +2,29 @@ nav {
     background-color: #222;
 }
 
+nav ul li a{
+    text-align:center;
+    display: block;
+    font-size: 1.2rem;
+    padding: 20px;
+    color: #c78c06;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #222;
+    background-color: #c78c06;
+}
+
+form input {
+    float: left;
+    font-size: 110%;
+    margin: auto;
+    width: 90%;
+    height: 35px;
+}
+
+
 
 
 
