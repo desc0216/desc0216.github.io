@@ -1,5 +1,7 @@
 html {
     max-width: 1200px;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -22,6 +24,7 @@ button {
 p {
     line-height: 1.5rem;
     padding: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -30,6 +33,7 @@ h1 {
     font-weight: bolder;
     padding: 40px 0 20px 0;
     color:#222;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -51,7 +55,7 @@ h3 {
 /* Nav bar */
 nav {
     background-color: #222;
-    text-align: center;
+     text-align: center;
     padding: 10px;
 }
 
@@ -115,11 +119,15 @@ nav button {
 }
 
 .intro h1 {
+    font-size: 4.5rem;
+    font-weight: bolder;
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .intro p {
     color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* About Us */
@@ -131,17 +139,36 @@ nav button {
     background-color: #ffe6ac;
 }
 
+.about-us p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+}
+
+.about-us h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 6rem;
+}
 /* Our Services */
 .services img {
     width: 100%;
     margin: 15px; 
 }
-
+.services h2 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
+}
 .services h3 {
     padding: 40px 15px 15px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
 }
 
 .services p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5rem;
     padding: 15px 15px 0px 15px;
 }
 
