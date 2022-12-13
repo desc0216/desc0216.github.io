@@ -70,11 +70,6 @@ form input {
     height: 35px;
 }
 
-.fa-search {
-    color:#c78c06;
-    font-size: 1rem;
-}
-
 nav button {
     border: 1px solid #c78c06;
     padding: 0px;
@@ -95,13 +90,13 @@ nav button {
     background-image: url(../images/main-banner.jpg);
 }
 
+.welcome button {
+    background-color:#c78c06;
+}
+
 .welcome {
     padding: 15px;
     background-color: rgba(0, 0, 0, 50%);
-}
-
-.welcome button {
-    background-color:#c78c06;
 }
 
 .welcome h1 {
