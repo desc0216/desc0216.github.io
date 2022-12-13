@@ -4,6 +4,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <!-- Custom Stylesheet -->
     <link href="css/main.css" rel="stylesheet">
     <!-- Reset Stylesheet -->
@@ -12,8 +15,9 @@
 </head>
 <body>
     <div>
-        <nav>
+        <nav class="wrapper">
             <ul>
+                <div class="hover">
                 <img src="images/logo.png" alt="Media logo with three stars">
                 <li class="nav-item"><a href="#">Home</a></li>
                 <li class="nav-item"><a href="#">About Us</a></li> 
@@ -31,15 +35,14 @@
 
 <main>
     <!-- Introduction for Website -->
-    <div class="intro">
-        <img src="images/main-banner.jpg" alt="office lounge area">
-        <div>
+    <div class="intro wrapper">
+        <div class="welcome wrapper">
             <h1>Welcome to Three Star Media</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             <button type="button">Connect with us <i class="fa fa-caret-right"></i></button>
         </div>
     </div>
-    <div class="about-us">
+    <div class="about-us wrapper">
         <img src="images/about-us.jpg" alt="ping pong table">
         <div>
             <h2>About Us</h2>
@@ -47,7 +50,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </div>
     </div>
-    <div class="services-container">
+    <div class="services-wrapper">
         <h2>Our Services</h2>
         <div class="services">
             <img src="images/digital.jpg" alt="person looking at phone and laptop">
@@ -80,15 +83,14 @@
             <button type="button">Print Plans <i class="fa fa-caret-right"></i></button>
         </div>
     </div>
-    <div class="vision">
-        <img src="images/vision.jpg" alt="paper boats on reflective ground">
+    <div class="vision wrapper">
         <div>
             <h3>Our Vision</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
             <button type="button">Learn More <i class="fa fa-caret-right"></i></button>
         </div>
     </div>
-    <div class="team-container">
+    <div class="team wrapper">
         <h2>Our Team</h2>
         <div class="team">
             <img src="images/john.jpg" alt="person with eyebrow raised">
@@ -103,7 +105,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
         </div>
     /div>
-    <div class="contact-form">
+    <div class="contact-form wrapper">
         <article>
             <h2>Contact Us</h2>
             <h3>Send us a message</h3>
@@ -126,7 +128,7 @@
             </form>
         </article>
     </div>
-    <div class="table-of-hours">
+    <div class="table-of-hours wrapper">
         <table>
             <caption>Hours of operation</caption>
             <thead>
@@ -147,11 +149,13 @@
               </tbody>
           </table>
     </div>
-    <div class="location">
+    <div class="location wrapper">
         <h2>Location</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944738567608!2d-75.75712548481953!3d45.349927779099744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1669179498081!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </main>
+</body>
+
 <footer>
     <p>© Copyright Three Star Media, 2020</p>
     <p>All images taken from <a href="https://unsplash.com" target="_blank">Unsplash</a></p>

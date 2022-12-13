@@ -1,4 +1,9 @@
 html {
+    max-width: 1200px;
+}
+
+body {
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -46,6 +51,8 @@ h3 {
 /* Nav bar */
 nav {
     background-color: #222;
+    text-align: center;
+    padding: 10px;
 }
 
 nav ul li a{
@@ -60,7 +67,7 @@ nav ul li a{
 nav ul li a:hover img {
     background-color: #c78c06;
  }
- 
+
 nav ul li a:hover {
     color: #222;
     background-color: #c78c06;
@@ -88,25 +95,166 @@ nav button {
 }
 
 /* Welcome Section */
-.welcome-background {
-    padding: 60px 0 60px 0;
+.intro {
     background-size: cover;
     background-image: url(../images/main-banner.jpg);
-}
-
-.welcome button {
-    background-color:#c78c06;
+    
 }
 
 .welcome {
-    padding: 15px;
+    background-color: rgba(2, 2, 2, 50%);
+}
+
+.intro button {
+    background-color:#c78c06;
+}
+
+.intro {
+    padding: 200px;
     background-color: rgba(0, 0, 0, 50%);
 }
 
-.welcome h1 {
+.intro h1 {
     color: white;
 }
 
-.welcome p {
+.intro p {
     color: white;
+}
+
+/* About Us */
+.about-us img {
+    width: 100%;
+}
+
+.about-us {
+    background-color: #ffe6ac;
+}
+
+/* Our Services */
+.services img {
+    width: 100%;
+    margin: 15px; 
+}
+
+.services h3 {
+    padding: 40px 15px 15px 15px;
+}
+
+.services p {
+    padding: 15px 15px 0px 15px;
+}
+
+.services button {
+    background-color:#222;
+    color: white;
+    margin: 15px;
+}
+
+.digital, .marketing, .video, .web, .print {
+    background-color:#ffe6ac;
+    margin-bottom: 15px;
+}
+
+/* Vision */
+.vision {
+    color: white;
+    background-position: center;
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
+    padding: 80px 45px 80px 45px;
+    width: 100%;
+    
+}
+
+.vision button {
+    border: 1px solid #c78c06;
+    background-color:rgba(2, 2, 2, 75%);
+    color: white;
+    
+} 
+
+/* Our Team */
+.team h3 {
+    padding: 25px 15px 15px 15px;
+}
+
+.team img {
+    width: 100%;
+}
+
+.paragraph {
+    padding: 15px 15px 30px 15px;
+}
+.john, .bob {
+    background-color:#ffe6ac;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    padding: 0px 0px 0px 15px;
+    font-weight: bolder;
+}
+
+hr {
+    width: 97%;
+    border: 1px solid #c78c06;
+}
+
+/* Contact Form */
+.contact form {
+    display: inline-block;
+}
+
+label {
+    line-height: 2rem;
+}
+
+#name, #email, #msg {
+    width: 100%;
+}
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+}
+
+.contact button {
+    padding: 5px;
+    background-color:#222;
+    margin-top: 20px;
+	color:#c78c06;
+    border: none;
+}
+
+/* Hours of Operation */
+table {
+    width: 100%;
+}
+
+th {
+    padding: 20px;
+    border: 1px solid black;
+    background-color:#ffe6ac;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+/* Location */
+iframe {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    color:#c78c06;
+    background-color:#222;
+}
+
+footer a:visited {
+    color:#c78c06;
 }
