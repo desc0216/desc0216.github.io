@@ -353,4 +353,187 @@ footer a:visited {
     line-height: 2rem;
 }
 
-/* destop */
+/* Desktop version */
+@media screen and (min-width:760px) {
+    html {
+        font-size: 1.6rem
+    }
+} .wrapper {
+    max-width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h1 {
+    padding: 40px 0 20px 0;
+    color:#222;
+    font-size: 5rem;
+    font-weight: bolder;
+    line-height: 8rem;
+}
+
+h2 {
+    padding: 40px 0 20px 0;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h3 {
+    padding: 40px 0 20px 0;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+p {
+    line-height: 1.5rem;
+    padding: 10px;
+}
+
+button {
+    padding: 40px 50px 45px 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    border: none;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    padding: 60px 60px 60px 60px;
+    display: flex;
+}
+
+nav ul li a {
+    padding: 30px 50px 30px 50px;
+    display: flex;
+}
+
+.hover li {
+    float: right;
+}
+
+form input {
+    width: 70%;
+    height: 30%;
+    margin-top: 80px;
+    display: flex;
+}
+
+nav button {
+    height: 70px;
+    width: 70px;
+    padding: 0px;
+    background-color: #222;
+    border: 1px solid #c78c06;
+    margin-top: 80px;
+}
+
+.fa {
+    font-size: 1.5rem;
+}
+
+/* Welcome Section */
+.welcome {
+    padding: 80px 200px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/main-banner.jpg);
+}
+
+.welcome {
+    background-color: rgba(0, 0, 0, 50%);
+    padding: 25px;
+}
+
+.welcome button {
+    background-color:#c78c06;
+}
+
+.welcome h1 {
+    color: white;
+}
+
+.welcome p {
+    color: white;
+}
+
+/* About Us */
+.about-us {
+    background-color: #ffe6ac;
+}
+
+.about-us img {
+    padding: 15px 30px 15px 15px;
+    width: 50%;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Our Services */
+.digital, .marketing, .video, .web, .print {
+    margin: 10px;
+}
+
+.services img {
+    width: 100%;
+}
+
+.services p {
+    padding: 20px 20px 0px 20px;
+}
+
+.services h3 {
+    padding: 50px 20px 20px 20px;
+}
+
+.services button {
+    width: 95%;
+    margin: 20px;
+    display: block;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:"services-heading services-heading services-heading services-heading services-heading services-heading"
+    "digital digital digital marketing marketing marketing"
+    "video video web web print print";
+}
+
+.services-heading {
+    grid-area: services-heading;
+}
+
+.digital {
+    grid-area: digital;
+}
+
+.marketing {
+    grid-area: marketing;
+}
+
+.video {
+    grid-area: video
+}
+
+.web {
+    grid-area: web;
+}
+
+.print {
+    grid-area: print;
+}
